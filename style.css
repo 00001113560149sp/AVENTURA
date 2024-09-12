@@ -1,0 +1,28 @@
+body {
+background-color: rgb(196, 252, 150);
+color: black;
+font-family:"Slabo 27px", serif ;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+}
+button{
+    background-color: rgb(66, 250, 75);
+    color: black;
+font-family:"Slabo 27px", serif ;
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
+main {
+    text-align: center;
+    max-width: 90%;
+} 
+img {
+    max-width: 90%;
+}
